@@ -107,6 +107,7 @@ public class SubjectStaticFactory
     }  
 } 
 ``` 
+
 ##### 在客户端进行调用时：
 
 ```
@@ -152,7 +153,8 @@ Object `invoke`(Object proxy, Method method, Object[] args) throws Throwable
 `args`:　　指代的是调用真实对象某个方法时接受的参数
 
 ---
-##### 接下来我们来看看`Proxy`这个类：
+
+#####  接下来我们来看看`Proxy`这个类：
 
 `Proxy`这个类的作用就是用来动态创建一个代理对象的类，它提供了许多的方法，但是我们用的最多的就是 newProxyInstance 这个方法：
 
